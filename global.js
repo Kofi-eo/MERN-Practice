@@ -71,4 +71,14 @@ util.log(dirUploads);
 
 util.log(v8.getHeapStatistics()); */
 
-//Tut 5
+//Tut 5 readline Module
+
+const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("How do you like node?", (answer) => {
+  console.log(`Your Answer: ${answer}`);
+});
