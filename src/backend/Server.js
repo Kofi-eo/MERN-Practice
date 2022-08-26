@@ -27,3 +27,5 @@ app.listen(port, () => {
 //MIDDLEWARES
 //syntax>> app.use(callback)
 //app.use(path,callback) = only when path is accurate
+
+//Handling Errors
